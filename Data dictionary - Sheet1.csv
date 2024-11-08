@@ -1,0 +1,13 @@
+Column,Data_type ,Description
+Date            ,YYYY-MM-DD format,The date of the last day of the week
+AveragePrice,float,The average selling price in US$
+TotalVolume ,float,The sum of total PLU units sold  and Total bags sold
+plu4046 ,float,The amount of non-organic small/medium Hass Avocados (~3-5 oz)  sold by weight in US pounds. This does not include avocados sold in pre-packaged quantities.
+plu4225 ,float,The amount of non-organic large Hass Avocados (~8-10 oz) sold by weight in US pounds. This does not include avocados sold in pre-packaged quantities.
+plu4770,float,The amount of non-organic extra large Hass Avocados (~10-15 oz) sold by weight in US pounds. This does not include avocados sold in pre-packaged quantities.
+TotalBags,float,The total sum amount of all sizes bags sold on a specic week
+SmallBags,float,The amount of  Hass avocados (they can be a mix of PLUs) sold in small pre-packaged containers/bags in US pounds. This does not include avocados sold individually. o
+LargeBags ,float,The amount of Hass avocados (they can be a mix of PLUs) sold in large pre-packaged containers/bags in US pounds. This does not include avocados sold individually. 
+XLargeBags  ,float,The amount of Hass avocados (they can be a mix of PLUs) sold in large pre-packaged containers/bags in US pounds. This does not include avocados sold individually. 
+type            ,string,Assuming it refers to the non orgarnic or none orgarnic bag types
+region        ,string,"Specific region within the US as defined by the Hass Avocado Board. Regions are defined by the Hass Avocado Board and Locations are selected cities or sub-regions that are part of the overall Region. The totals found for all locations within a Region will not equal the total found for the specific Region due to the aforementioned point. For convenience, here is a breakdown of the Regions and Locations:"
